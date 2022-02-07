@@ -4,16 +4,16 @@ body {
   min-height: 100vh;
   display: flex;
   flex-flow: column wrap;
-  border: green 20px dotted;
+  /* border: green 20px dotted; */
 }
 
 .header {
   font-size: 32px;
   font-weight: 900;
-  /* margin-left: 16px; */
+  padding: 16px;
   display: flex;
   align-items: center;
-  border: yellow 20px dotted;
+  /* border: yellow 20px dotted; */
   height: 72px;
   background: darkmagenta;
   color: white;
@@ -22,12 +22,10 @@ body {
 .footer {
   display: flex;
   height: 72px;
-  background: #eee;
+  background: #eeee;
   color: darkmagenta;
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* text-justify: center; */
-  border: 20px black dotted;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -44,22 +42,23 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 32px;
-  border: 20px blue dotted;
+  /* border: 20px blue dotted; */
+  inline-size: 550px;
+  overflow-wrap: break-word;
 }
 
 .content {
   display: flex;
   flex-direction: row;
-  border: 20px red dotted;
+  /* border: 20px red dotted; */
   flex: 1 1 auto;
 }
 
 .words {
-  border: 20px black dotted;
+  /* border: 20px black dotted; */
   display: flex;
   flex-flow: row wrap;
-  align-content: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 20px;
   gap: 15px;
 }
